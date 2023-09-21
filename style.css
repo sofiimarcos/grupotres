@@ -1,35 +1,44 @@
-/* Estilos globales */
-body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+h1 {
+    font-family: 'Times New Roman', Times, serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
+    padding: 0;  
+    background-color: #91b6e6;
+    color: #3e59cf;
+    text-align: center;
   }
-  header {
+header {
     background-color: #91b6e6;
     color: #3e59cf;
     text-align: center;
     padding: 1rem;
   }
-  h1 {
-    margin: 0;
+h2 {
+    text-align: justify; 
+    font-family: 'Times New Roman', Times, serif;
+    size: 7;
   }
-  nav {
-    background-color: #ce9ace;
-    padding: 0.5rem;
-    text-align: center;
+h3 {
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    size: 7;
   }
-  nav ol {
-    list-style: none;
-    margin: 2px;
-    padding: 0;
-  }
-  nav li {
+ nav li {
     display: inline-block;
     margin: 0 1rem;
+    list-style: decimal;
+    font-family: 'Times New Roman', Times, serif;
   }
-  main {
-    padding: 2rem;
+h4 {
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    size: 7;
   }
- 
-  
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    size: 6;
+    margin: 2;
+    padding-left: 1em;
+    padding-right: 1em;
+}
